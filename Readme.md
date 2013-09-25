@@ -1,9 +1,9 @@
 # Description #
 A dashing widget that displays tickets for [Freshdesk.com](http://www.freshdesk.com)
 
- - Displays unassigned Tickets subject and time.
+ - Displays unassigned tickets subject and time.
  - Displays Ticket counts assigned to Agents.
- - Ticket 
+ - Time for each ticket changes color depending on age.
 
 ## Preview ##
 ![Freshdesk Dashing Widget](http://imgur.com/Q2keCCD.png)
