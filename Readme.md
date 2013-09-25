@@ -15,6 +15,6 @@ Add the widget HTML to your dashboard
 
 2. Create a directory called freshdesk under widgets and copy *freshdesk.coffeescript*, *freshdesk.html*, *freshdesk.scss* into the directory.
 
-3. Modify the FRESHDESK_URL and FRESHDESK_USERNAME in the freshdesk.rb file.
+3. Modify the ```FRESHDESK_URL``` and FRESHDESK_USERNAME in the freshdesk.rb file.
 
 4. Copy freshdesk.rb into your jobs folder.
