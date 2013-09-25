@@ -1,5 +1,5 @@
 # Description #
-A dashing widget that displays tickets for Freshdesk.com
+A dashing widget that displays tickets for [Freshdesk.com](http://www.freshdesk.com)
 
  - Displays unassigned Tickets subject and time.
  - Displays Ticket counts assigned to Agents.
@@ -23,3 +23,6 @@ Add the widget HTML to your dashboard
 3. Modify the ```FRESHDESK_URL``` and ```FRESHDESK_USERNAME``` in the *freshdesk.rb* file.
 
 4. Copy freshdesk.rb into your jobs folder.
+
+## More Info ##
+[Freshdesk API Documentation](http://freshdesk.com/api)
