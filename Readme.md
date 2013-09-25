@@ -6,7 +6,7 @@ A dashing widget that displays tickets for Freshdesk.com
  - Ticket 
 
 ## Preview ##
-![Freshdesk Dashing Widget](http://imgur.com/Q2keCCD)
+![Freshdesk Dashing Widget](http://imgur.com/Q2keCCD?1)
 
 
 ## Usage ##
