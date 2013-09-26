@@ -6,7 +6,7 @@ A dashing widget that displays tickets for [Freshdesk.com](http://www.freshdesk.
  - Time for each ticket changes color depending on age.
 
 ## Preview ##
-![Freshdesk Dashing Widget](http://imgur.com/Q2keCCD.png)
+![Freshdesk Dashing Widget](http://i.imgur.com/sl2LliU.png)
 
 
 ## Usage ##
