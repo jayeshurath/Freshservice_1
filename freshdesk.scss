@@ -3,7 +3,9 @@ $background-color-name: #067660;
 $background-color-count: #4d4b4b;
 
 .widget-freshdesk {
+    background: url('/assets/freshdesk-background.png') no-repeat;             
     background-color: $background-color;
+    background-position: center;
     color: #ddd;
 
     ol {
