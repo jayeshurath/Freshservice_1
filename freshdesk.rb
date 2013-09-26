@@ -1,6 +1,6 @@
 # Enter your freshdesk url and api key.
 FRESHDESK_URL = 'example.freshdesk.com'
-FRESHDESK_VIEW_URL = '/helpdesk/tickets.json?filter_name=new_my_open'
+FRESHDESK_VIEW_URL = '/helpdesk/tickets.json?filter_name=all_tickets'
 FRESHDESK_USERNAME = 'SECRET_API_KEY'
 # Password is blank
 FRESHDESK_PASSWORD = ''
@@ -23,9 +23,11 @@ SCHEDULER.every '60s' do
         items = []
         agents = {}
         for ticket in json
-            unclaimed = if ticket['responder_id'] then false else true end
-            obj = { subject: ticket['subject'], created_at: ticket['created_at'], unclaimed: unclaimed }
-            items << obj
+            if ticket['status'] != 5                                           
+                unclaimed = if ticket['responder_id'] then false else true end 
+                obj = { subject: ticket['subject'], created_at: ticket['created_at'], unclaimed: unclaimed }
+                items << obj                                                   
+            end
 
             agent = agents[ticket['responder_name']]
 
