@@ -24,7 +24,7 @@ Add the widget HTML to your dashboard
 
 4. Modify the ```FRESHDESK_URL``` and ```FRESHDESK_USERNAME``` in the *freshdesk.rb* file.
 
-5. Add [freshdesk-background.png](http://i.imgur.com/uJ4xjX4.png) to the assets folder.
+5. Add [freshdesk-background.png](http://i.imgur.com/uJ4xjX4.png) to the *assets/images* folder.
 
 
 
